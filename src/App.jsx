@@ -180,7 +180,7 @@ function App() {
               <div
                 className={`w-11/12 lg:w-[700px] space-y-2 lg:space-y-10 transform transition-all duration-1800 ease-out
             ${
-              inView[4]
+              inView[3]
                 ? "translate-y-0 opacity-100"
                 : "translate-y-16 lg:translate-y-32 opacity-0"
             }`}
@@ -200,9 +200,9 @@ function App() {
               <img
                 className={`max-w-full h-auto transform transition-all duration-1800 ease-out
             ${
-              inView[4]
-                ? "translate-x-0 opacity-100"
-                : "translate-x-16 lg:translate-x-32 opacity-0"
+              inView[3]
+                ? "translate-x-0 opacity-100 delay-400"
+                : "translate-x-16 lg:translate-x-32 opacity-0 delay-500"
             }`}
                 src={Img3}
                 ref={addToRefs}
