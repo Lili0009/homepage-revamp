@@ -12,6 +12,7 @@ import Logo1 from "./assets/logo1.png";
 import Logo2 from "./assets/logo2.png";
 import Logo3 from "./assets/logo3.jpeg";
 import Logo4 from "./assets/logo4.jpeg";
+import Call from "./assets/call.png";
 
 function App() {
   const refs = useRef([]);
@@ -64,30 +65,6 @@ function App() {
             <div className="flex justify-center text-[25px] mt-10 md:mt-20">
               <a href="tel:206-919-6886">
                 <button className="flex btn-call text-[1rem] text-black hover:text-copper active:scale-90 gap-1 md:text-[1.2rem] lg:text-[1.4rem]">
-                  <svg
-                    className="h-auto w-3 lg:w-5"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path
-                      d="M22 16.92v3a2 2 0 0 1-2.18 2 
-                        19.79 19.79 0 0 1-8.63-3.07 
-                        19.5 19.5 0 0 1-6-6 
-                        19.79 19.79 0 0 1-3.07-8.63 
-                        A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 
-                        c.12.81.37 1.6.72 2.33 
-                        a2 2 0 0 1-.45 2.18l-1.27 1.27 
-                        a16 16 0 0 0 6 6l1.27-1.27 
-                        a2 2 0 0 1 2.18-.45 
-                        c.73.35 1.52.6 2.33.72 
-                        a2 2 0 0 1 1.72 2z"
-                    />
-                  </svg>
                   Call Now
                 </button>
               </a>
