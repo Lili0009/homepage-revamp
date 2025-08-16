@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="relative h-screen">
       <section id="home">
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)),url('./assets/bg-image.jpeg')] bg-cover bg-fixed bg-center z-0" />
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)),url('./assets/bg-image.jpeg')] bg-cover bg-center sm:bg-fixed bg-center z-0" />
         <div className="relative z-10 h-[100vh] flex flex-col">
           <div className="flex justify-between items-center p-7 md:p-12">
             <Menu />
@@ -295,7 +295,7 @@ function App() {
 
             <div class="h-[100px] md:flex-1 md:h-full">
               <div class="flex justify-end">
-                <div class="md:bg-copper text-white md:text-[15px] px-6 lg:px-10 py-5 rounded-bl-4xl text-culutred">
+                <div class="md:bg-copper text-white md:text-[15px] lg:text-[20px] px-6 lg:px-10 py-5 rounded-bl-4xl text-culutred">
                   <h1>FIND YOUR DREAM HOME</h1>
                 </div>
               </div>

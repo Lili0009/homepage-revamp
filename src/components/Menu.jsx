@@ -38,7 +38,9 @@ function Menu() {
       <div className="fixed left-0 right-0 top-0">
         <nav
           className={`flex justify-between items-center w-full transition-all duration-950  ${
-            scrolled ? "bg-cultured shadow-lg w-full px-2" : "h-[160px] p-7 "
+            scrolled
+              ? "bg-cultured shadow-lg w-full px-3 py-4 md:py-2"
+              : "h-[160px] p-7 "
           }`}
         >
           <a href="/home">
