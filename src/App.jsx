@@ -80,14 +80,14 @@ function App() {
           </div>
 
           <div className="flex flex-col-reverse md:flex-row mt-5 md:mt-10 w-full">
-            <div className="flex-[1.5] lg:flex-[1.1] flex flex-col justify-center items-center text-center overflow-hidden">
+            <div className="flex-[1.5] lg:flex-[1.1] flex flex-col justify-center items-center text-center overflow-hidden max-md:mt-5">
               <div
                 className={`w-11/12 lg:w-[700px] space-y-2 lg:space-y-10 transform transition-all duration-1800 ease-out
-            ${
-              inView[1]
-                ? "translate-y-0 opacity-100"
-                : "translate-y-16 lg:translate-y-32 opacity-0"
-            }`}
+                ${
+                  inView[1]
+                    ? "translate-y-0 opacity-100"
+                    : "translate-y-16 lg:translate-y-32 opacity-0"
+                }`}
                 ref={addToRefs}
               >
                 <h2 className="text-[13px] sm:text-[20px] lg:text-[2rem]">
@@ -117,7 +117,7 @@ function App() {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row mt-5 lg:mt-20 w-full overflow-hidden">
+          <div className="flex flex-col md:flex-row mt-10 md:mt-20 w-full overflow-hidden">
             <div className="flex-[1] justify-center items-center">
               <img
                 className={`max-w-full h-auto  transform transition-all duration-1800 ease-out
@@ -131,14 +131,14 @@ function App() {
                 alt="Top Sales"
               />
             </div>
-            <div className="flex-[1.1] flex flex-col justify-center items-center text-center">
+            <div className="flex-[1.1] flex flex-col justify-center items-center text-center max-md:mt-5">
               <div
                 className={`w-11/12 lg:w-[700px]  space-y-2 lg:w-[700px] transform transition-all duration-1800 ease-out
-            ${
-              inView[2]
-                ? "translate-x-0 opacity-100"
-                : "translate-x-32 opacity-0"
-            }`}
+                ${
+                  inView[2]
+                    ? "translate-x-0 opacity-100"
+                    : "translate-x-32 opacity-0"
+                }`}
                 ref={addToRefs}
               >
                 <h2 className="text-[13px] sm:text-[20px] lg:text-[2rem]">
@@ -152,15 +152,15 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col-reverse md:flex-row mt-5 md:mt-10 w-full">
-            <div className="flex-[1.5] lg:flex-[1.1] flex flex-col justify-center items-center text-center overflow-hidden">
+          <div className="flex flex-col-reverse md:flex-row mt-10 md:mt-10 w-full">
+            <div className="flex-[1.5] lg:flex-[1.1] flex flex-col justify-center items-center text-center overflow-hidden max-md:mt-5">
               <div
                 className={`w-11/12 lg:w-[700px] space-y-2 lg:space-y-10 transform transition-all duration-1800 ease-out
-            ${
-              inView[3]
-                ? "translate-y-0 opacity-100"
-                : "translate-y-16 lg:translate-y-32 opacity-0"
-            }`}
+                ${
+                  inView[3]
+                    ? "translate-y-0 opacity-100"
+                    : "translate-y-16 lg:translate-y-32 opacity-0"
+                }`}
                 ref={addToRefs}
               >
                 <h2 className="text-[13px] sm:text-[20px] lg:text-[2rem]">
